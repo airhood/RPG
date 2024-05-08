@@ -8,12 +8,12 @@ public class Player : MonoBehaviour
     public Rigidbody2D rb;
     public float moveSpeed;
 
-    public const float diagonalMove = 0.7071067f; // ·çÆ®2ºĞÀÇ1
+    public const float diagonalMove = 0.7071067f; // ë£¨íŠ¸2ë¶„ì˜1
 
     // Start is called before the first frame update
     void Start()
     {
-
+        
     }
 
     // Update is called once per frame
@@ -46,6 +46,6 @@ public class Player : MonoBehaviour
 
     private void CheckInput()
     {
-        // ÀÎº¥Åä¸® ¿­±â, ¾ÆÀÌÅÛ »ç¿ëÇÏ±â µî Å°º¸µå ÀÔ·ÂÀ» Ã³¸®ÇÒ ¿¹Á¤
+        // ì¸ë²¤í† ë¦¬ ì—´ê¸°, ì•„ì´í…œ ì‚¬ìš©í•˜ê¸° ë“± í‚¤ë³´ë“œ ì…ë ¥ì„ ì²˜ë¦¬í•  ì˜ˆì •
     }
 }
